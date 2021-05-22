@@ -9,7 +9,7 @@ var fireworks = [];
 var particles = [];
 
 var gravity = 0.1;
-
+document.title=`Happy ${new Date().getFullYear()}`
 setTimeout(function() {
   setInterval(function() {
     fireworks.push(new Firework(Math.random() * width, height, Math.random() - 0.5, -(Math.random() * 7 + 5)));
