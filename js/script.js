@@ -1,6 +1,7 @@
 var gc = new GameCanvas();
 
-var points = textToPoints("2022", 40, "Anton");
+let year= new Date().getFullYear();
+var points = textToPoints(year, 40, "Anton");
 
 
 var titleParticles = [];
